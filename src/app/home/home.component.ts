@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
   profile: UnPromise<ReturnType<typeof liff.getProfile>>;
   ngOnInit(): void {
     liff
-      .init({ liffId: '1660756547-zRWjKKmP' })
+      .init({ liffId: '1660765547-BVJ7v1k6' })
       .then(() => {
         this.os = liff.getOS();
         if (liff.isLoggedIn()) {
