@@ -28,7 +28,7 @@ export class RegisterComponent implements OnInit {
   os: ReturnType<typeof liff.getOS>;
   profile: UnPromise<ReturnType<typeof liff.getProfile>>;
   ngOnInit() {
-    liff.init({ liffId: '1660756547-zRWjKKmP' }).then(() => {
+    liff.init({ liffId: '1660768641-3yVXDvnz' }).then(() => {
       this.os = liff.getOS();
       if (liff.isLoggedIn()) {
         liff
